@@ -133,4 +133,35 @@ void rule7(int ruleNumber)
   rhythmFlash(actionPin, 4, 1000);
 }
 
+// ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 ##### RULE 08 #####
+void rule8(int ruleNumber)
+{
+  if (debugMode == true)
+  {
+    Serial.print("executing rule");
+    Serial.print(ruleNumber);
+    Serial.println("...");
+  }
+
+  sendRule(8);
+}
+
+// ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 ##### RULE 09 #####
+void rule8(int ruleNumber)
+{
+  if (debugMode == true)
+  {
+    Serial.print("executing rule");
+    Serial.print(ruleNumber);
+    Serial.println("...");
+  }
+
+  sendRule(9);
+  
+  int randomValue = random(10);
+  rhythmFlash(actionPin, 4, 1000);
+}
+
+
+
 
